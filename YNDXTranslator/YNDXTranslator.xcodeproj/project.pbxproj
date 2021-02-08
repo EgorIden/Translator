@@ -18,6 +18,7 @@
 		746B5F9E25B57F6500C4B888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746B5F9D25B57F6500C4B888 /* Assets.xcassets */; };
 		746B5FA125B57F6500C4B888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746B5F9F25B57F6500C4B888 /* LaunchScreen.storyboard */; };
 		746B5FAD25B5B52400C4B888 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746B5FAC25B5B52400C4B888 /* MainViewController.swift */; };
+		7498514A25D046890005B901 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498514925D046890005B901 /* UIController.swift */; };
 		74AC99A525B853CC0027E1FC /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC99A425B853CC0027E1FC /* Translation.swift */; };
 		74D6880025BAE81D005E372B /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D687FF25BAE81D005E372B /* MainModel.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		746B5FA025B57F6500C4B888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		746B5FA225B57F6500C4B888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		746B5FAC25B5B52400C4B888 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7498514925D046890005B901 /* UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
 		74AC99A425B853CC0027E1FC /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
 		74D687FF25BAE81D005E372B /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 		743AE5B825CBE4CE00EE8889 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7498514925D046890005B901 /* UIController.swift */,
 				741EBE2025C7FB81007E7C04 /* UIVIew.swift */,
 			);
 			path = Extensions;
@@ -106,8 +109,8 @@
 				746B5F9625B57F6200C4B888 /* SceneDelegate.swift */,
 				746B5FA925B5B31E00C4B888 /* Models */,
 				746B5FA825B5B30600C4B888 /* Main Screen */,
-				743AE5B825CBE4CE00EE8889 /* Extensions */,
 				746B5FB225B5FBDF00C4B888 /* Network */,
+				743AE5B825CBE4CE00EE8889 /* Extensions */,
 				746B5F9D25B57F6500C4B888 /* Assets.xcassets */,
 				746B5F9F25B57F6500C4B888 /* LaunchScreen.storyboard */,
 				746B5FA225B57F6500C4B888 /* Info.plist */,
@@ -252,6 +255,7 @@
 				741EBE2125C7FB81007E7C04 /* UIVIew.swift in Sources */,
 				7440AB3E25BDA64600DE8727 /* APIManager.swift in Sources */,
 				746B5F9525B57F6200C4B888 /* AppDelegate.swift in Sources */,
+				7498514A25D046890005B901 /* UIController.swift in Sources */,
 				7440AB4125BE014500DE8727 /* APIService.swift in Sources */,
 				746B5F9725B57F6200C4B888 /* SceneDelegate.swift in Sources */,
 				74AC99A525B853CC0027E1FC /* Translation.swift in Sources */,
