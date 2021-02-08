@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "YNDXTranslator"; ObjectID = "0ys-pR-Dce"; */
+"0ys-pR-Dce.text" = "YNDXTranslator";
+
+/* Class = "UITextView"; text = "Text to translate..."; ObjectID = "cST-Cy-PoS"; */
+"cST-Cy-PoS.text" = "Text to translate...";
+
+/* Class = "UILabel"; text = "Russian"; ObjectID = "d6y-CR-CmP"; */
+"d6y-CR-CmP.text" = "Russian";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "i1q-KT-Hnz"; */
+"i1q-KT-Hnz.text" = "English";
+
+/* Class = "UITextView"; text = "Text to translate..."; ObjectID = "ls6-SE-Abu"; */
+"ls6-SE-Abu.text" = "Text to translate...";

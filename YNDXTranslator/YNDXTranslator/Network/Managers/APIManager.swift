@@ -8,20 +8,23 @@
 
 import Foundation
 protocol IAPIManager {
-    func sendRequest<T: Codable>(request: URLRequest, with text: String, completion: @escaping (Result<T, Error>) -> Void)
+    func sendRequest<T: Codable>(request: URLRequest, with text: String, completion: @escaping (T?) -> Void)
 }
 class APIManager: IAPIManager {
-    func sendRequest<T: Codable>(request: URLRequest, with text: String, completion: @escaping (Result<T, Error>) -> Void) {
+    func sendRequest<T: Codable>(request: URLRequest, with text: String, completion: @escaping (T?) -> Void) {
         let session = URLSession.shared
         session.dataTask(with: request) { (data, response, error) in
             print(Thread.current)
+            if error != nil {
+                completion(nil)
+            }
             guard let data = data, let model = try? JSONDecoder().decode(T.self, from: data) else {
-                completion(.failure(error!))
+                completion(nil)
                 return
             }
             DispatchQueue.main.async {
                 print(Thread.current)
-                completion(.success(model))
+                completion(model)
             }
         }.resume()
     }

@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Text to translate..." translatesAutoresizingMaskIntoConstraints="NO" id="cST-Cy-PoS">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Translated text..." translatesAutoresizingMaskIntoConstraints="NO" id="cST-Cy-PoS">
                                 <rect key="frame" x="17" y="460" width="341" height="294"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -103,6 +103,7 @@
                     <connections>
                         <outlet property="firstLang" destination="i1q-KT-Hnz" id="bTE-Gr-48H"/>
                         <outlet property="languagePicker" destination="3Hi-IL-gNA" id="9fk-yg-vyn"/>
+                        <outlet property="reverseImg" destination="WNp-Bh-f4S" id="RWi-z6-Qzg"/>
                         <outlet property="secondLang" destination="d6y-CR-CmP" id="HAs-EZ-wJR"/>
                         <outlet property="textToTranslate" destination="ls6-SE-Abu" id="WVI-hO-5DU"/>
                         <outlet property="topBackgroundView" destination="VSb-Va-fLv" id="PiV-KA-2ox"/>
